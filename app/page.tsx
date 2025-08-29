@@ -15,6 +15,7 @@ import {
   Briefcase,
 } from "lucide-react";
 import { useTranslation } from "next-i18next";
+import { send } from "@emailjs/browser";
 
 import Header from "@/components/Header";
 import { Button } from "@/components/ui/button";
@@ -38,6 +39,9 @@ export default function Portfolio() {
   const { t } = useTranslation("common");
   const [formStatus, setFormStatus] = useState<null | "success" | "error" | "loading">(null);
   const [formMessage, setFormMessage] = useState("");
+  const SERVICE_ID = process.env.NEXT_PUBLIC_SERVICE_ID!;
+  const TEMPLATE_ID = process.env.NEXT_PUBLIC_TEMPLATE_ID!;
+  const USER_ID = process.env.NEXT_PUBLIC_USER_ID!;
 
   // Scroll suave
   const scrollToSection = (sectionId: string) => {
@@ -327,22 +331,21 @@ export default function Portfolio() {
                   const email = formData.get("email") as string;
                   const message = formData.get("message") as string;
                   try {
-                    const res = await fetch("/api/send-email", {
-                      method: "POST",
-                      headers: { "Content-Type": "application/json" },
-                      body: JSON.stringify({ name, email, message }),
-                    });
-                    if (res.ok) {
+                    const res = await send(SERVICE_ID, TEMPLATE_ID, {
+                      from_name: name,
+                      from_email: email,
+                      message,
+                    }, USER_ID);
+                    if (res && res.status === 200 && res.text === "OK") {
                       setFormStatus("success");
-                      setFormMessage("Mensagem enviada com sucesso!");
-                      e.currentTarget.reset();
+                      setFormMessage(t("portfolio.contact.success"));
                     } else {
                       setFormStatus("error");
-                      setFormMessage("Erro ao enviar mensagem. Tente novamente.");
+                      setFormMessage(t("portfolio.contact.error"));
                     }
-                  } catch {
+                  } catch (err) {
                     setFormStatus("error");
-                    setFormMessage("Erro ao enviar mensagem. Tente novamente.");
+                    setFormMessage(t("portfolio.contact.error"));
                   }
                 }}
               >
