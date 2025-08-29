@@ -99,7 +99,7 @@ export default function Portfolio() {
               <div className="fade-in">
                 <div className="flex items-center space-x-4 mb-6">
                   <Avatar className="w-20 h-20">
-                    <AvatarImage src="/professional-headshot.png" />
+                    <AvatarImage src="images/avatar.jpeg" />
                     <AvatarFallback className="text-2xl bg-primary/10 text-primary">
                       {t("portfolio.name")
                         .split(" ")

@@ -22,90 +22,61 @@
   },
   "language": {
     "pt": "Português",
-    "en": "English"
+    "en": "Inglês"
   },
   "portfolio": {
-    "name": "Seu Nome",
-    "role": "Seu Cargo",
-    "bio": "Texto da sua biografia.",
-    "education": "Sua formação acadêmica.",
-    "area": "Sua área de atuação.",
-    "interests": ["Interesse 1", "Interesse 2", "Interesse 3"],
-    "objectives": "Seus objetivos profissionais.",
+    "name": "Gustavo Alvarenga Ribeiro Carvalho",
+    "role": "Desenvolvedor Full-Stack Júnior",
+    "bio": "Sou desenvolvedor full-stack apaixonado por tecnologia e por criar soluções que geram impacto real. Trabalho com .NET, C#, Angular e Azure, sempre focado em qualidade e escalabilidade. Também gosto de cozinhar, tanto na cozinha quanto no desenvolvimento, a combinação certa de técnica e criatividade é o que transforma ideias em experiências marcantes.",
+    "education": "Técnico em Informática pelo CEFET-MG e atualmente cursando Engenharia de Software na PUC Minas.",
+    "area": "Desenvolvimento de Software",
+    "interests": [
+      "Desenvolvimento Full-Stack",
+      "Integração de Sistemas",
+      "Computação em Nuvem",
+      "Boas práticas de Engenharia de Software",
+      "Inovação em tecnologia",
+      "Metodologias Ágeis"
+    ],
+    "objectives": "Atuar em projetos complexos que me permitam evoluir tecnicamente, entregar soluções de qualidade e contribuir para resultados significativos.",
     "projects": [
       {
         "id": 1,
-        "name": "Projeto 1",
-        "description": "Descrição do projeto 1.",
-        "technologies": ["React", "Next.js"]
+        "name": "Web Crawlers de Dados Públicos",
+        "description": "Ferramenta para coleta e organização de dados públicos em larga escala.",
+        "technologies": ["Python", "PostgreSQL", "Web Scraping"]
       },
       {
         "id": 2,
-        "name": "Gestor de Tarefas",
-        "description": "Aplicativo para organizar tarefas diárias com notificações.",
-        "technologies": ["Vue.js", "Firebase"]
+        "name": "Aplicações Corporativas",
+        "description": "Desenvolvimento de sistemas web robustos em ambiente ágil, com foco em performance e segurança.",
+        "technologies": [".NET Core", "C#", "SQL Server", "Angular", "Azure"]
       },
       {
         "id": 3,
-        "name": "Site de Receitas",
-        "description": "Plataforma colaborativa para compartilhar receitas culinárias.",
-        "technologies": ["Angular", "Node.js"]
-      },
-      {
-        "id": 4,
-        "name": "Controle Financeiro",
-        "description": "Sistema para controle de despesas pessoais e geração de relatórios.",
-        "technologies": ["React", "Express"]
-      },
-      {
-        "id": 5,
-        "name": "Agenda Médica",
-        "description": "Aplicativo para agendamento de consultas médicas online.",
-        "technologies": ["Flutter", "Firebase"]
-      },
-      {
-        "id": 6,
-        "name": "Blog Pessoal",
-        "description": "Blog para publicação de artigos sobre tecnologia e programação.",
-        "technologies": ["Gatsby", "GraphQL"]
+        "name": "Projetos Independentes",
+        "description": "Sites institucionais e soluções sob demanda para pequenos negócios.",
+        "technologies": ["HTML", "CSS", "JavaScript", "PHP"]
       }
     ],
     "experiences": [
       {
-        "period": "2022-2023",
-        "company": "Empresa 1",
-        "role": "Cargo 1",
-        "description": "Descrição da experiência 1."
+        "period": "Fev. 2023 - Nov. 2023",
+        "company": "4mti Soluções",
+        "role": "Estagiário de Desenvolvimento",
+        "description": "Desenvolvimento de web crawlers e manutenção de banco de dados PostgreSQL."
       },
       {
-        "period": "2021-2022",
-        "company": "Tech Solutions",
-        "role": "Desenvolvedor Frontend",
-        "description": "Desenvolvimento de interfaces responsivas para clientes internacionais."
+        "period": "Nov. 2023 - Out. 2024",
+        "company": "Dti Digital",
+        "role": "Desenvolvedor de Software",
+        "description": "Atuação em projetos com .NET, Angular e Azure, criando soluções seguras e escaláveis."
       },
       {
-        "period": "2020-2021",
-        "company": "InovaWeb",
-        "role": "Estagiário de TI",
-        "description": "Apoio na manutenção de sistemas internos e suporte técnico."
-      },
-      {
-        "period": "2019-2020",
-        "company": "StartUpX",
-        "role": "Desenvolvedor Mobile",
-        "description": "Criação de aplicativos móveis para Android e iOS."
-      },
-      {
-        "period": "2018-2019",
-        "company": "Agência Digital",
-        "role": "Designer UI/UX",
-        "description": "Elaboração de protótipos e testes de usabilidade."
-      },
-      {
-        "period": "2017-2018",
-        "company": "Freelancer",
-        "role": "Desenvolvedor Web",
-        "description": "Projetos independentes de sites institucionais."
+        "period": "Out. 2024 - Atualmente",
+        "company": "Tata Consultancy Services (TCS)",
+        "role": "Desenvolvedor de Software",
+        "description": "Atuação em projeto de geolocalização de pessoas em áreas de alto risco para uma mineradora, integrando sistemas corporativos, automatizando processos críticos e otimizando a performance das soluções."
       }
     ],
     "education_label": "Formação",

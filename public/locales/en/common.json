@@ -3,19 +3,19 @@
     "title": "Portfolio",
     "subtitle": "Welcome to my portfolio",
     "menu": {
-      "about": "About",
+      "about": "About Me",
       "projects": "Projects",
       "experiences": "Experiences",
       "contact": "Contact"
     }
   },
   "page": {
-    "about_title": "About me",
+    "about_title": "About Me",
     "professional_info": "Professional Information",
     "projects_title": "Projects",
-    "projects_description": "Some of the projects I've developed during my journey as a dev.",
+    "projects_description": "Some of the projects I have developed throughout my journey as a developer.",
     "experiences_title": "Experiences",
-    "experiences_description": "My career journey.",
+    "experiences_description": "My career journey so far.",
     "contact_title": "Contact",
     "contact_description": "Let's talk! I'm always open to opportunities.",
     "back_to_top": "Back to top"
@@ -25,87 +25,58 @@
     "en": "English"
   },
   "portfolio": {
-    "name": "Your Name",
-    "role": "Your Role",
-    "bio": "Your biography text.",
-    "education": "Your academic background.",
-    "area": "Your area of expertise.",
-    "interests": ["Interest 1", "Interest 2", "Interest 3"],
-    "objectives": "Your professional objectives.",
+    "name": "Gustavo Alvarenga Ribeiro Carvalho",
+    "role": "Junior Full-Stack Developer",
+    "bio": "I am a full-stack developer passionate about technology and creating solutions that generate real impact. I work with .NET, C#, Angular, and Azure, always focused on quality and scalability. I also enjoy cooking — both in the kitchen and in development, the right combination of technique and creativity transforms ideas into meaningful experiences.",
+    "education": "Technical degree in IT from CEFET-MG and currently studying Software Engineering at PUC Minas.",
+    "area": "Software Development",
+    "interests": [
+      "Full-Stack Development",
+      "Systems Integration",
+      "Cloud Computing",
+      "Software Engineering Best Practices",
+      "Technology Innovation",
+      "Agile Methodologies"
+    ],
+    "objectives": "Contribute to challenging projects that allow me to grow technically, deliver high-quality solutions, and achieve meaningful results.",
     "projects": [
       {
         "id": 1,
-        "name": "Project 1",
-        "description": "Description of project 1.",
-        "technologies": ["React", "Next.js"]
+        "name": "Public Data Web Crawlers",
+        "description": "Tool for collecting and organizing public data on a large scale.",
+        "technologies": ["Python", "PostgreSQL", "Web Scraping"]
       },
       {
         "id": 2,
-        "name": "Task Manager",
-        "description": "App to organize daily tasks with notifications.",
-        "technologies": ["Vue.js", "Firebase"]
+        "name": "Corporate Applications",
+        "description": "Development of robust web systems in an agile environment, focusing on performance and security.",
+        "technologies": [".NET Core", "C#", "SQL Server", "Angular", "Azure"]
       },
       {
         "id": 3,
-        "name": "Recipe Site",
-        "description": "Collaborative platform to share cooking recipes.",
-        "technologies": ["Angular", "Node.js"]
-      },
-      {
-        "id": 4,
-        "name": "Finance Control",
-        "description": "System for personal expense control and report generation.",
-        "technologies": ["React", "Express"]
-      },
-      {
-        "id": 5,
-        "name": "Medical Scheduler",
-        "description": "App for online medical appointment scheduling.",
-        "technologies": ["Flutter", "Firebase"]
-      },
-      {
-        "id": 6,
-        "name": "Personal Blog",
-        "description": "Blog for publishing articles about technology and programming.",
-        "technologies": ["Gatsby", "GraphQL"]
+        "name": "Independent Projects",
+        "description": "Institutional websites and custom solutions for small businesses.",
+        "technologies": ["HTML", "CSS", "JavaScript", "PHP"]
       }
     ],
     "experiences": [
       {
-        "period": "2022-2023",
-        "company": "Company 1",
-        "role": "Role 1",
-        "description": "Description of experience 1."
+        "period": "Feb 2023 - Nov 2023",
+        "company": "4mti Soluções",
+        "role": "Development Intern",
+        "description": "Development of web crawlers and maintenance of PostgreSQL databases."
       },
       {
-        "period": "2021-2022",
-        "company": "Tech Solutions",
-        "role": "Frontend Developer",
-        "description": "Developed responsive interfaces for international clients."
+        "period": "Nov 2023 - Oct 2024",
+        "company": "Dti Digital",
+        "role": "Software Developer",
+        "description": "Worked on projects using .NET, Angular, and Azure, creating secure and scalable solutions."
       },
       {
-        "period": "2020-2021",
-        "company": "InovaWeb",
-        "role": "IT Intern",
-        "description": "Supported internal system maintenance and technical support."
-      },
-      {
-        "period": "2019-2020",
-        "company": "StartUpX",
-        "role": "Mobile Developer",
-        "description": "Created mobile apps for Android and iOS."
-      },
-      {
-        "period": "2018-2019",
-        "company": "Digital Agency",
-        "role": "UI/UX Designer",
-        "description": "Designed prototypes and conducted usability testing."
-      },
-      {
-        "period": "2017-2018",
-        "company": "Freelancer",
-        "role": "Web Developer",
-        "description": "Independent projects for institutional websites."
+        "period": "Oct 2024 - Present",
+        "company": "Tata Consultancy Services (TCS)",
+        "role": "Software Developer",
+        "description": "Worked on a geolocation project for people in high-risk areas at a mining company, integrating corporate systems, automating critical processes, and improving solution performance."
       }
     ],
     "education_label": "Education",
