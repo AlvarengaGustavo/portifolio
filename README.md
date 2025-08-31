@@ -13,7 +13,7 @@ Este projeto é um portfólio moderno e responsivo desenvolvido em Next.js para 
 - Radix UI
 
 ## Link para o Site Publicado
-Acesse o portfólio online em: [https://portifolio-gules-iota-78.vercel.app/](https://portifolio-gules-iota-78.vercel.app/)
+Acesse o portfólio online em: [https://gustavoalvarenga.dev](https://gustavoalvarenga.dev)
 
 ## Protótipos
 Sobre mim:
